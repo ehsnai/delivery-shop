@@ -1,0 +1,23 @@
+{
+    "UPDATE": "updated Successfully ",
+    "UPDATE_ERROR": "error occurred while updating data. ",
+    "INSERT": "inserted Successfully ",
+    "FETCHED": "fetched Successfully ",
+    "DELETED": "deleted Successfully ",
+    "500": "Unknown error occurred ",
+    "401": "Mandatory fields missing ",
+    "UNKNOWN_ERROR": "unknown error occurred, please try again. ",
+    "LOGGED_OUT": "logged OUT successfully ",
+    "LOGGED_IN": "logged in successfully ",
+    "USER_ONLINE": "User Online successfully ",
+    "USER_ADDED": "User added successfully ",
+    "USER_CONNECTED":"A user connected ",
+    "USER_DISCONNECTED":"A user disconnected ",
+    "USER_TIMEDOUT":"user timedout",
+    "USER_CREATE_LOGGED_IN":"Created and logged in successfully ",
+    "WRONGTYPE_OPERATION":"Called an WRONGTYPE Operation for selecting data that does not exists ",
+    "WRONGTYPE_CONDITION":"Error occurred while selecting data with WRONGTYPE condition ",
+    "WRONG_DB":"Error occurred because of calling Unspecified DB name ",
+    "DB_CONNECTED":"DataBase Connected "
+
+}

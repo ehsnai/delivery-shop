@@ -1,0 +1,275 @@
+{
+    "genericErrMsg": {
+        "500": {
+            "1": "An unknown error has occurred.",
+            "2": "An unknown error has occurred."
+        },
+        "400": {
+            "1": "Value in any of the  mandatory field's is missing."
+        }
+    },
+    "Register": {
+        "201": {
+            "1": "User has been created successfully."
+        },
+        "200": {
+            "1": "The entered mobile number is registered with another account.Please try with another number."
+        }
+    },
+    "loginAPI": {
+        "200": {
+            "1": "Logged in successfully."
+        },
+        "401": {
+            "1": "The entered password is wrong."
+        },
+        "412": {
+            "1": "The entered mobile number is not registered."
+        }
+    },
+    "fbLoginAPI": {
+        "201": {
+            "1": "New user has been created successfully."
+        },
+        "200": {
+            "1": "Logged in successfully."
+        }
+    },
+    "emailIdExistsVerificaiton": {
+        "200": {
+            "1": "Email-id exist in the database."
+        },
+        "412": {
+            "1": "Email-id doesnot exist in the database."
+        }
+    },
+    "phoneNumberExistsVerificaton": {
+        "200": {
+            "1": "Mobile number already exist in the database."
+        },
+        "412": {
+            "1": "Mobile number doesnot exist in the database"
+        }
+    },
+    "patchPreference": {
+        "200": {
+            "1": "User preferences updated successfully."
+        }
+    },
+    "forgotPasswordByEmail": {
+        "200": {
+            "1": "A support Email has been sent to your registered Email-id successfully."
+        },
+        "412": {
+            "1": "Entered Email-id doesnot exist in the database."
+        }
+    },
+    "forgotPasswordByPhoneNumber": {
+        "200": {
+            "1": "An OTP has been sent to the registered mobile number."
+        },
+        "412": {
+            "1": "Entered mobile number doesnot exist in the database."
+        }
+    },
+    "PostMedia": {
+        "200": {
+            "1": "Profile picture/Profile video updated successfully."
+        },
+        "412": {
+            "1": "User doesnot exist."
+        }
+    },
+    "PostPreferences": {
+        "200": {
+            "1": "User preferences has been updated successfully."
+        }
+    },
+    "PostResendVerificationCode": {
+        "200": {
+            "1": "An OTP has been sent successfully on the registered number."
+        },
+        "412": {
+            "1": "The entered number doesnot exist in the database."
+        }
+    },
+    "PostRegisterUser": {
+        "201": {
+            "1": "A new user has been created successfully."
+        },
+        "200": {
+            "1": "The entered mobile number is registered with another account.Please try with another number."
+        }
+    },
+    "PostVerificationCode": {
+        "200": {
+            "1": "The entered OTP is valid."
+        },
+        "412": {
+            "1": "The entered OTP doesnot match."
+        }
+    },
+    "PostVerificaitonOTP": {
+        "200": {
+            "1": "The entered OTP is valid"
+        },
+        "412": {
+            "1": "The entered OTP doesnot match."
+        }
+    },
+    "PostVideo": {
+        "200": {
+            "1": "Profile video updated successfully."
+        }
+    },
+    "PostPassword": {
+        "200": {
+            "1": "The new password has been updated successfully."
+        }
+    },
+    "GetPreferences": {
+        "200": {
+            "1": "User preferences sent successfully."
+        },
+        "412": {
+            "1": "Entered User Id doesnot exist,please check the entered Id"
+        }
+    },
+    "GetProfile": {
+        "200": {
+            "1": "User profile sent successfully."
+        },
+        "412": {
+            "1": "Entered User Id doesnot exist,please check the entered Id"
+        }
+    },
+    "PatchLocation": {
+        "200": {
+            "1": "User's location updated successfully."
+        },
+        "412": {
+            "1": "Entered User Id doesnot exist,please check the entered Id"
+        }
+    },
+    "PatchProfile": {
+        "200": {
+            "1": "Profile updated successfully."
+        },
+        "412": {
+            "1": "Entered User Id doesnot exist,please check the entered Id."
+        }
+    },
+    "GetReportUserReasons": {
+        "200": {
+            "1": "Reasons to report user sent successfully."
+        },
+        "412": {
+            "1": "Reasons to report user doesnot exist."
+        }
+    },
+    "PostReportUser": {
+        "200": {
+            "1": "User reported successfully."
+        },
+        "412": {
+            "1": "targetUser doesnot exist, try with a different targetUserId."
+        },
+        "422": {
+            "1": "User cannot report his own targetUserId,please use a different targetUserId"
+        }
+    },
+    "GetMatch": {
+        "200": {
+            "1": "Matchlist sent successfully."
+        },
+        "412": {
+            "1": "Matchlist is empty."
+        }
+    },
+    "PostUnMatch": {
+        "200": {
+            "1": "User unmatched successfully."
+        },
+        "422": {
+            "1": "targetUserId  doesnot exist in the database,try with the different ID"
+        }
+    },
+    "GetProfileById": {
+        "200": {
+            "1": "User found in database."
+        },
+        "412": {
+            "1": "User doesnot exist in the database"
+        }
+    },
+    "GetLikes": {
+        "200": {
+            "1": "User found in database."
+        },
+        "412": {
+            "1": "User doesnot exist in the database"
+        }
+    },
+    "GetUnLike": {
+        "200": {
+            "1": "User found in database."
+        },
+        "412": {
+            "1": "User doesnot exist in the database"
+        }
+    },
+    "GetRecentVisitiors": {
+        "200": {
+            "1": "list sent successfully."
+        },
+        "412": {
+            "1": "list is empty."
+        }
+    },
+    "GetChats": {
+        "200": {
+            "1": "list sent successfully."
+        },
+        "412": {
+            "1": "list is empty."
+        }
+    },
+    "PatchBlock": {
+        "200": {
+            "1": "User Blocked successfully."
+        },
+        "412": {
+            "1": "targetUser doesnot exist, try with a different targetUserId."
+        },
+        "422": {
+            "1": "User cannot block his own targetUserId,please use a different targetUserId"
+        }
+    },
+    "PatchUnBlock": {
+        "200": {
+            "1": "User UnBlocked successfully."
+        },
+        "412": {
+            "1": "targetUser doesnot exist, try with a different targetUserId."
+        },
+        "422": {
+            "1": "User cannot unblock his own targetUserId,please use a different targetUserId"
+        }
+    },
+    "GetDeactivateReasons": {
+        "200": {
+            "1": "list sent successfully."
+        },
+        "412": {
+            "1": "list is empty."
+        }
+    },
+    "GetSearchResultById": {
+        "200": {
+            "1": "user sent successfully."
+        },
+        "412": {
+            "1": "user not found."
+        }
+    }
+}

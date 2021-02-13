@@ -1,0 +1,460 @@
+{
+	"genericErrMsg": {
+		"200": "Success msg.",
+		"204": "Data Not Found successfully.",
+		"400": "Value in any of the mandatory field's is missing.",
+		"409": "duplicate",
+		"440": "Token Expire.",
+		"498": "Invalid Token.",
+		"500": "An unknown error has occurred.",
+		"501": "Implement  error."
+	},
+	"PostLogin": {
+		"200": "success",
+		"422": "incorrect password"
+	},
+	"DeleteAllUsers": {
+		"200": "success"
+	},
+	"GetAllUser": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"PostUser": {
+		"200": "success"
+	},
+	"GetBytxt": {
+		"200": "success",
+		"204": " Data Not Found successfully "
+	},
+	"PutUnBanned": {
+		"200": "success",
+		"204": " Data not Updated "
+	},
+	"GetByIdSupperLikes": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"GetAllSupperLikes": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"PostFilter": {
+		"200": "success"
+	},
+	"PutBanAll": {
+		"200": "success",
+		"204": "Data Not updated successfully. "
+	},
+	"GetAllBannUser": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"DeleteCampaing": {
+		"200": "success",
+		"204": "Data Not Deleted successfully. "
+	},
+	"GetAllCampaingDetails": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"GetCampingById": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"GetUser": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"PostCamping": {
+		"200": "success"
+	},
+	"PatchEmailIdExists": {
+		"200": "this Email is not registerd",
+		"412": "this Email is registerd"
+	},
+	"PatchPhoneNumberExists": {
+		"200": "this number is registerd",
+		"422": "this number is not registerd"
+	},
+	"GetAppRate": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"PostCampingNotification": {
+		"200": "success"
+	},
+	"GetTermsandConditions": {
+		"200": "success"
+	},
+	"PutTermsandConditions": {
+		"200": "success"
+	},
+	"GetCity": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"GetCountry": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"GetDeactiveUser": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"PostDeactiveUser": {
+		"200": "success"
+	},
+	"GetDevice": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"GetDisLikeById": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"GetDisLike": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"GetLanguage": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"PostLanguage": {
+		"200": "success"
+	},
+	"DeleteLanguage": {
+		"200": "success"
+	},
+	"GetLike": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"GetLikeById": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"GetMatch": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"GetMatchById": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"GetByIdMyDisLike": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"GetMyLikes": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"GetNotification": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"PostNotification": {
+		"200": "success"
+	},
+	"GetPolicy": {
+		"200": "success"
+	},
+	"PutPolicy": {
+		"200": "success"
+	},
+	"GetPrefrances": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"PostPrefrances": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"GetRecentVisitors": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"GetrecentVisitorsById": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"GetReportedUser": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"GetByIdReportedUser": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"GetActiveDates": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"PostActiveDates": {
+		"200": "success"
+	},
+	"GetCompletedDates": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"PostCompletedDates": {
+		"200": "success"
+	},
+	"GetExpiredDates": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"PostExpiredDates": {
+		"200": "success"
+	},
+	"GetReportReasonse": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"GetReportReasonseById": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"PostReportReasonse": {
+		"200": "success"
+	},
+	"PutReportReasonse": {
+		"200": "success"
+	},
+	"DeleteReportReasonse": {
+		"200": "success"
+	},
+	"ImageUploade": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"VideoUploade": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"GtProfileByContactNumber": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"GtProfileByEmailId": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"GtProfileById": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"PutProfile": {
+		"200": "success"
+	},
+	"GetDateFromToto": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"GetUserLikeFilter": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"GetUserMatchFilter": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"BlockUserById": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"GetCommunityGuidelines": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"PutCommunityGuidelines": {
+		"200": "success"
+	},
+	"GetsafetyTips": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"PutsafetyTips": {
+		"200": "success"
+	},
+	"GetLicenses": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"PutLicenses": {
+		"200": "success"
+	},
+	"PostPlans": {
+		"200": "success"
+	},
+	"DeletePlans": {
+		"200": "success"
+	},
+	"GetPlans": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"GetPlanByText": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"GetPlanById": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"Getsubscription": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"Getcoins": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"Postcoins": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"Putcoins": {
+		"200": "success"
+	},
+	"Deletecoins": {
+		"200": "success"
+	},
+	"GetcoinPlans": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"PostcoinPlans": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"PutcoinPlans": {
+		"200": "success"
+	},
+	"DeletecoinPlans": {
+		"200": "success"
+	},
+	"GetcoinWallet": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"GetcoinWalletTxt": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"GetcoinWalletById": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"GetcoinplanByTxt": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"GetcoinByTxt": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"GetByIdTxt": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"PostwalletCustomer": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"GetWalletApp": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"GetWalletAppTxt": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"GetWalletPG": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"GetWalletPGTxt": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"PutcoinConfig": {
+		"200": "success"
+	},
+	"PutUsers": {
+		"200": "success"
+	},
+	"PushNotification": {
+		"200": "success"
+	},
+	"GetCoinConfig": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"EditPlan": {
+		"200": "success"
+	},
+	"Postconfig": {
+		"200": "success"
+	},
+	"PostProUser": {
+		"200": "success"
+	},
+	"dollarGet": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"UserBoostGet": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"UserBoostGetByText": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"passwordChange": {
+		"200": "password successfully change",
+		"204": "current password not match with new entered password"
+	},
+	"Getappversion": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"Postappversion": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"Deleteappversion": {
+		"200": "success"
+	},
+	"Putappversion": {
+		"200": "success"
+	},
+	"TwillioOTP": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"PutPrefrances": {
+		"200": "success"
+	},
+	"GetCdnKeys": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"PostCdnKeys": {
+		"200": "success",
+		"204": "Data Not Found successfully. "
+	},
+	"DeleteCdnKeys": {
+		"200": "success"
+	},
+	"PutCdnKeys": {
+		"200": "success"
+	},
+	"DeleteCoupon": {
+		"200": "coupon delete success"
+	},
+	"PostRegister": "PostRegister"
+}
