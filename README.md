@@ -1,29 +1,43 @@
-# README #
+**Starting Project**
 
-This README would normally document whatever steps are necessary to get your application up and running.
+install [mongodb](https://docs.mongodb.com/) first 
 
-### What is this repository for? ###
+---
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+## API
 
-### How do I get set up? ###
+Start with starting API
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+1. cd **api** 
+2. npm install
+3. npm start
+4. cd ..
+---
 
-### Contribution guidelines ###
+## APP
 
-* Writing tests
-* Code review
-* Other guidelines
+Next, you’ll start app
 
-### Who do I talk to? ###
+1. cd **app**  
+2. npm install
+3. npm start
+4. cd ..
 
-* Repo owner or admin
-* Other community or team contact
+---
+
+## ADMIN
+
+Next, you’ll start admin dashbord
+
+1. cd **admin** 
+2. npm install
+3. npm start
+4. cd ..
+
+
+## HELP
+
+if you have any questions you can ask from **ehsan2002e@gmail.com** 
+
+
+
